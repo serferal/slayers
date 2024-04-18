@@ -1,0 +1,1785 @@
+@charset "utf-8"; /****** FUENTE Y ESTILO PARA BARRA DE DIRECCION ******/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&display=swap'); /****** ESTILOS GENERALES PARA EL CUERPO ******/
+body {
+    background-color: #4f72aa;
+    color: #000000;
+    text-align: justify;
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    margin: 0px 0px 0px 0px;
+}
+
+a:link {
+    color: #999999;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #999999;
+    text-decoration: none;
+}
+
+a:active {
+    color: #999999;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E4E0E0;
+    text-decoration: underline;
+}
+
+a.barra {
+    color: #FFFFFF;
+    text-decoration: none;
+    user-select: none;
+}
+
+p {
+    text-align: justify;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+}
+
+div.boton {
+    position: relative;
+}
+
+div.imagen {
+    position: relative;
+}
+
+div.imagen-texto {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: bottom;
+    text-align: center;
+    position: absolute;
+    user-select: none;
+    line-height: 14px;
+}
+
+div.boton-texto {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: bottom;
+    text-align: right;
+    position: absolute;
+    width: 150px;
+    right: 4px;
+    top: 31px;
+    user-select: none;
+}
+
+div.boton-texto-mini {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    width: 70px;
+    top: 3px;
+    user-select: none;
+}
+
+div.boton-texto-mini2 {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    width: 80px;
+    top: 3px;
+    user-select: none;
+}
+
+div.boton-texto-mini3 {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    width: 60px;
+    top: 3px;
+    user-select: none;
+}
+
+div.boton-texto-mini4 {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    width: 100px;
+    top: 3px;
+    user-select: none;
+}
+
+div.boton-texto-no {
+    font-family: Alegreya Sans SC;
+    color: #4F72AA;
+    font-size: 16px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: bottom;
+    text-align: right;
+    position: absolute;
+    width: 150px;
+    right: 4px;
+    top: 31px;
+    user-select: none;
+}
+
+div.boton-texto2 {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: bottom;
+    text-align: right;
+    position: absolute;
+    width: 150px;
+    right: 4px;
+    top: 20px;
+    line-height: 14px;
+    user-select: none;
+}
+
+div.boton-texto2-no {
+    font-family: Alegreya Sans SC;
+    color: #4F72AA;
+    font-size: 16px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: bottom;
+    text-align: right;
+    position: absolute;
+    width: 150px;
+    right: 4px;
+    top: 20px;
+    line-height: 14px;
+    user-select: none;
+}
+
+div.boton-texto-listado {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    width: 25px;
+    top: 5px;
+    user-select: none;
+}
+
+div.boton-texto-listado2 {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    width: 80px;
+    top: 5px;
+    user-select: none;
+}
+
+div.episodios {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    outline: 2px solid white;
+    margin: 0px 3px;
+    user-select: none;
+}
+
+div.opening {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    outline: 2px solid white;
+    margin: 0px 3px;
+    user-select: none;
+}
+
+div.ending {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    outline: 2px solid white;
+    margin: 0px 3px;
+    user-select: none;
+}
+
+div.atogaki {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    outline: 2px solid white;
+    margin: 0px 3px;
+    user-select: none;
+}
+
+div.royal2 {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    text-align: right;
+    position: absolute;
+    width: 100px;
+    top: 14px;
+    right: 8px;
+    user-select: none;
+}
+
+span.traduc1 {
+    font-family: Alegreya Sans SC;
+    color: darkorange;
+    font-size: 70px;
+    vertical-align: middle;
+    text-shadow: -1px -1px darkred;
+    font-style: italic;
+}
+
+span.traduc2 {
+    font-family: Alegreya Sans SC;
+    color: #000000;
+    font-size: 25px;
+    vertical-align: middle;
+    text-shadow: -1px -1px white;
+    font-style: italic;
+}
+
+div.cabecera-arriba {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 170px;
+    height: 20px;
+    user-select: none;
+    position: absolute;
+    left: 7px;
+    bottom: 1px;
+}
+
+div.cabecera-abajo {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 170px;
+    height: 20px;
+    user-select: none;
+    position: absolute;
+    left: 5px;
+    bottom: 2px;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.bwhite {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.iwhite {
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.jwhite {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.jap {
+    font-size: 12px;
+}
+
+.green {
+    color: #00FA81
+}
+
+.orange {
+    color: #F5A90F
+}
+
+.notas {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.lyrics {
+    text-align: center;
+}
+
+/****** ESTILOS PARA TITULOS ******/
+.anime-titulo {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.nombre-personaje {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.nombre-hechizo {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.nombre-criatura {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.nombre-objeto {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.nombre-localizacion {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.nombre-ataque {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.novela-titulo {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.manga-titulo {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.multi-titulo {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.letra-titulo {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.varios-titulo {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+/****** ESTILOS PARA TRADUCCIONES ******/
+.tabula {
+    text-indent: 40px;
+}
+
+/* TABULACION PARA TRADUCCIONES */
+div.linea-blanca {
+    background-color: white;
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/****** ESTILOS PARA IMAGENES ******/
+img {
+    border: 0px;
+    display: block;
+}
+
+img.right {
+    float: right;
+    margin: 5px 5px;
+}
+
+img.left {
+    float: left;
+    margin: 5px 5px;
+}
+
+img.center {
+    margin: 0px auto 0px auto;
+}
+
+img.center2 {
+    margin: 2px auto ;
+}
+
+img.titulo {
+    float: left;
+    margin: 0px 10px;
+}
+
+img.borders {
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.resumen {
+    margin: 1px 5px;
+}
+
+img.boton {
+    width: 150px;
+    height: 50px;
+    outline: 2px solid white;
+    outline-offset: -2px;
+}
+
+img.boton-no {
+    width: 150px;
+    height: 50px;
+    outline: 2px solid white;
+    outline-offset: -2px;
+    opacity: 0.3;
+}
+
+img.boton-mini {
+    width: 70px;
+    height: 20px;
+    outline: 2px solid white;
+    outline-offset: -2px;
+    margin: 0px 1px;
+}
+
+img.boton-mini2 {
+    width: 80px;
+    height: 20px;
+    outline: 2px solid white;
+    outline-offset: -2px;
+    margin: 0px 1px;
+}
+
+img.boton-mini3 {
+    width: 60px;
+    height: 20px;
+    outline: 2px solid white;
+    outline-offset: -2px;
+    margin: 0px 1px;
+}
+
+img.boton-mini4 {
+    width: 100px;
+    height: 20px;
+    outline: 2px solid white;
+    outline-offset: -2px;
+    margin: 0px 1px;
+}
+
+img.boton-listado {
+    width: 25px;
+    height: 25px;
+    outline: 2px solid white;
+    outline-offset: -2px;
+    margin: 0px 1px;
+}
+
+img.boton-listado2 {
+    width: 80px;
+    height: 25px;
+    outline: 2px solid white;
+    outline-offset: -2px;
+    margin: 0px 1px;
+}
+
+img.varios {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 2px 2px;
+}
+
+img.varios-left {
+    float: left;
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 5px 5px;
+}
+
+img.varios-right {
+    float: right;
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 5px 5px;
+}
+
+img.varios-center {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 0px auto;
+}
+
+img.varios-center2 {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 5px auto;
+}
+
+img.fuente {
+    width: 18px;
+    height: 12px;
+    margin: 0px 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img.bandera {
+    width: 18px;
+    height: 12px;
+    margin: 0px 5px;
+    display: inline;
+    vertical-align: bottom;
+}
+
+img.seiyuu {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin: 0px 5px;
+    vertical-align: bottom;
+}
+
+img.guia {
+    width: 13px;
+    height: 13px;
+    display: inline;
+    vertical-align: bottom;
+}
+
+img.fight-icono {
+    width: 12px;
+    height: 12px;
+    margin: 0px 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img.novela {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.novela-varios {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 2px 2px;
+}
+
+img.novela-cover {
+    margin: 5px auto;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.novela-cover-left {
+    margin: 5px 5px;
+    border-radius: 7%;
+    border: 2px solid white;
+}
+
+img.magius-varios {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 0px 2px;
+}
+
+img.magius-cover {
+    margin: 5px auto;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.manga-varios {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 0px 2px;
+}
+
+img.manga-cover {
+    margin: 5px auto;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.artbook-cover {
+    margin: 5px auto;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.artbook-varios {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 2px 2px;
+}
+
+img.animecomic-cover {
+    margin: 5px auto;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.animecomic-varios {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 2px 2px;
+}
+
+img.guidebook-cover {
+    margin: 5px auto;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.guidebook-varios {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 2px 2px;
+}
+
+img.anime {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.anime-titulo {
+    width: 180px;
+    height: 130px;
+    margin: 5px 10px;
+    border: 2px solid white;
+}
+
+img.pelicula-titulo {
+    margin: 5px auto;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.ova-titulo {
+    width: 180px;
+    height: 130px;
+    margin: 5px 10px;
+    border: 2px solid white;
+}
+
+img.peliculas {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.ovas {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.soporte-cover {
+    margin: 2px 2px;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.single-cover {
+    margin: 5px auto;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.personajes {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.criaturas {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.hechizos {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.ataques {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.objetos {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.localizaciones {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.figura-cover {
+    margin: 5px auto;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.aleatorio {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.juego {
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+img.juego-cover {
+    margin: 5px auto;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.juego-varios {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 2px 2px;
+}
+
+img.hyper-cover {
+    margin: 5px auto;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+img.drama-cover {
+    margin: 5px 5px;
+    border: 1px solid #4F72AA;
+    outline: 1px solid white;
+}
+
+/****** ESTILOS GENERALES PARA TABLAS ******/
+table.border {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 12px;
+    border-spacing: 15px;
+}
+
+table.noborder {
+    border: 0px solid white;
+    border-collapse: collapse;
+}
+
+td {
+    border: 0px solid white;
+    border-collapse: collapse;
+    text-align: justify;
+    vertical-align: top;
+    padding: 0px;
+    border-spacing: 0px;
+}
+
+table.principal {
+    width: 1405px;
+}
+
+td.principal1 {
+    width: 1405px;
+    height: 115px;
+}
+
+td.principal2 {
+    width: 185px;
+}
+
+td.principal3 {
+    width: 1035px;
+}
+
+td.principal4 {
+    width: 185px;
+}
+
+table.cabecera {
+    width: 1405px;
+    height: 115px;
+}
+
+td.cabecera1 {
+    width: 185px;
+    height: 115px;
+}
+
+td.cabecera2 {
+    width: 1035px;
+    height: 115px;
+}
+
+td.cabecera3 {
+    width: 185px;
+    height: 115px;
+}
+
+table.menu {
+    width: 185px;
+}
+
+td.idiomas {
+    width: 185px;
+    height: 32px;
+}
+
+table.direccion {
+    width: 100%;
+    height: 32px;
+}
+
+td.direccion {
+    width: 100%;
+    height: 32px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/barras/barra-base.png');
+}
+
+td.barra-texto {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 16px;
+    vertical-align: middle;
+    text-shadow: 2px 2px black;
+}
+
+td.barra-texto-centro {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 16px;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+table.noticias {
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+
+td.noticias {
+    width: 100%;
+    min-height: 22px;
+}
+
+td.noticias-barra {
+    width: 100%;
+    height: 22px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/barras/barra-actuas.png');
+    background-repeat: no-repeat;
+    background-size: 1000px 22px;
+    background-position: center;
+}
+
+table.stats {
+    width: 100px;
+    float: left;
+}
+
+td.stats1 {
+    width: 100px;
+    height: 5px;
+    font-size: 5px;
+}
+
+td.stats2 {
+    width: 100px;
+    height: 5px;
+    font-size: 5px;
+}
+
+table.novedades {
+    width: 185px;
+}
+
+td.novedades-texto {
+    text-align: center;
+    color: white;
+    font-size: smaller;
+}
+
+td.novedades-barra {
+    width: 185px;
+    height: 32px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/barras/barra-noticias.png');
+}
+
+td.traducciones {
+    width: 185px;
+    height: 32px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/barras/barra-traducciones.png');
+}
+
+table.fight-listado {
+    width: 100%;
+    margin: 0px auto;
+    font-size: smaller;
+}
+
+/****** ESTILOS CONCRETOS PARA TABLAS ******/
+table.botones {
+    margin: 0px auto 0px auto;
+}
+
+table.botones1 {
+    width: 150;
+    margin: 0px auto 0px auto;
+}
+
+table.botones2 {
+    width: 305;
+    margin: 0px auto 0px auto;
+}
+
+table.botones3 {
+    width: 460;
+    margin: 0px auto 0px auto;
+}
+
+table.botones4 {
+    width: 615;
+    margin: 0px auto 0px auto;
+}
+
+table.botones5 {
+    width: 770;
+    margin: 0px auto 0px auto;
+}
+
+table.botones6 {
+    width: 925;
+    margin: 0px auto 0px auto;
+}
+
+td.boton1 {
+    width: 150px;
+    height: 50px;
+}
+
+td.boton2 {
+    width: 5px;
+    height: 50px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/menu/menu0.gif');
+}
+
+td.boton3 {
+    width: 50px;
+    height: 5px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/menu/menu00.gif');
+    font-size: 5px;
+}
+
+td.boton4 {
+    width: 5px;
+    height: 5px;
+    font-size: 5px;
+}
+
+td.boton5 {
+    width: 5px;
+    height: 50px;
+}
+
+td.boton6 {
+    width: 50px;
+    height: 5px;
+    font-size: 5px;
+}
+
+table.actuas {
+    margin: 0px auto 0px auto;
+}
+
+td.actuas0 {
+    width: 70px;
+    height: 20px;
+}
+
+td.actuas1 {
+    width: 70px;
+    height: 20px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/barras/barra-fondo70.png');
+    background-repeat: no-repeat;
+    background-size: 70px 20px;
+    background-position: center;
+}
+
+td.actuas2 {
+    width: 5px;
+    height: 20px;
+    font-size: 5px;
+    background-image: url('https://www.lost-slayers.net/web/actuas/imgs/entre-boton1.gif');
+}
+
+td.actuas3 {
+    width: 70px;
+    height: 5px;
+    font-size: 5px;
+    background-image: url('https://www.lost-slayers.net/web/actuas/imgs/entre-boton2.gif');
+}
+
+td.actuas4 {
+    width: 5px;
+    height: 5px;
+    font-size: 5px;
+}
+
+td.actuas5 {
+    width: 70px;
+    height: 5px;
+    font-size: 5px;
+}
+
+td.actuas6 {
+    width: 5px;
+    height: 20px;
+}
+
+td.lyrics {
+    width: 50%;
+    text-align: center;
+}
+
+td.lyrics-titulo {
+    width: 50%;
+    height: 26px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/linea.png');
+}
+
+td.lyrics1 {
+    width: 80px;
+    height: 25px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/barras/barra-fondo70.png');
+    background-repeat: no-repeat;
+    background-size: 80px 25px;
+    background-position: center;
+}
+
+td.lyrics2 {
+    width: 5px;
+    height: 25px;
+    font-size: 5px;
+    background-image: url('https://www.lost-slayers.net/web/actuas/imgs/entre-boton1.gif');
+}
+
+table.publicaciones-right {
+    width: 200px;
+    float: right;
+}
+
+table.publicaciones-right2 {
+    width: 400px;
+    float: right;
+}
+
+table.publicaciones-left {
+    width: 200px;
+    float: left;
+}
+
+td.pub-title {
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+td.pub-cover {
+    width: 200px;
+    height: 250px;
+}
+
+td.pub-text {
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+table.juegos-right {
+    width: 220px;
+    float: right;
+}
+
+table.juegos-left {
+    width: 220px;
+    float: left;
+}
+
+td.juegos-title {
+    width: 220px;
+    text-align: center;
+    color: white;
+}
+
+td.juegos-cover {
+    width: 220px;
+}
+
+td.juegos-text {
+    width: 220px;
+    text-align: center;
+    color: white;
+}
+
+table.anime {
+    width: 200px;
+    float: right;
+}
+
+td.anime-temporada {
+    width: 200px;
+    text-align: center;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+td.anime-numeracion {
+    width: 200px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+td.anime-titulo {
+    width: 200px;
+    height: 140px;
+    text-align: center;
+}
+
+td.anime-emision {
+    width: 200px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+table.pelicula {
+    width: 220px;
+    float: right;
+}
+
+td.anime-nombre {
+    width: 200px;
+    text-align: center;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+td.pelicula-titulo {
+    width: 200px;
+    height: 140px;
+    text-align: center;
+}
+
+td.pelicula-emision {
+    width: 200px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+table.resumen {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td.resumen-titulo {
+    width: 100%;
+    height: 26px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/linea.png');
+}
+
+td.linea-titulo {
+    width: 100%;
+    height: 26px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/linea.png');
+}
+
+td.resumen {
+    width: 100%;
+}
+
+table.linea {
+    width: 900px;
+    margin: 0px auto 0px auto;
+}
+
+td.linea {
+    height: 20px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/linea.png');
+}
+
+td.linea1 {
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+
+td.linea2 {
+    width: 100px;
+    height: 20px;
+}
+
+td.linea3 {
+    width: 700px;
+}
+
+table.multimedia {
+    width: 200px;
+    float: right;
+}
+
+td.multi-title {
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+td.multi-cover {
+    width: 200px;
+    height: 200px;
+}
+
+td.multi-text {
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+table.bso {
+    width: 770px;
+}
+
+td.bso-pista {
+    width: 20px;
+    text-align: center;
+}
+
+td.bso-duracion {
+    width: 50px;
+    text-align: center;
+}
+
+td.bso-titulo {
+    width: 320px;
+}
+
+td.bso-info {
+    width: 360px;
+}
+
+td.bso01 {
+    width: 250px;
+    height: 26px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/linea.png');
+}
+
+td.bso03 {
+    width: 380px;
+    height: 26px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/linea.png');
+}
+
+td.bso04 {
+    width: 315px;
+    height: 26px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/linea.png');
+}
+
+td.bso1 {
+    width: 250px;
+}
+
+td.bso2 {
+    width: 120px;
+    text-align: center;
+}
+
+td.bso3 {
+    width: 380px;
+}
+
+td.bso4 {
+    width: 315px;
+}
+
+td.bso4 {
+    width: 315px;
+}
+
+table.drama {
+    border: 2px solid white;
+    border-radius: 12px;
+    border-spacing: 15px;
+    margin: 0px auto;
+}
+
+table.chaoswords {
+    border: 2px solid white;
+    border-radius: 12px;
+    border-spacing: 15px;
+    margin: 0px auto;
+}
+
+table.chaoswords-left {
+    border: 2px solid white;
+    border-radius: 12px;
+    border-spacing: 15px;
+    float: left;
+    margin: 0px 5px;
+}
+
+table.chaoswords-right {
+    border: 2px solid white;
+    border-radius: 12px;
+    border-spacing: 15px;
+    float: right;
+    margin: 0px 5px;
+}
+
+td.agua {
+    background-image: url('https://www.lost-slayers.net/imgs/informacion/iconos/azul.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.aire {
+    background-image: url('https://www.lost-slayers.net/imgs/informacion/iconos/verde.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.astral {
+    background-image: url('https://www.lost-slayers.net/imgs/informacion/iconos/morado.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.blanca {
+    background-image: url('https://www.lost-slayers.net/imgs/informacion/iconos/blanco.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.fuego {
+    background-image: url('https://www.lost-slayers.net/imgs/informacion/iconos/rojo.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.tierra {
+    background-image: url('https://www.lost-slayers.net/imgs/informacion/iconos/marron.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.negra {
+    background-image: url('https://www.lost-slayers.net/imgs/informacion/iconos/negro.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.divina {
+    background-image: url('https://www.lost-slayers.net/imgs/informacion/iconos/amarillo.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.otros {
+    background-image: url('https://www.lost-slayers.net/imgs/informacion/iconos/gris.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+table.hyper {
+    width: 220px;
+    float: right;
+}
+
+td.hyper-title {
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+td.hyper-cover {
+    width: 200px;
+    height: 150px;
+}
+
+td.hyper-text {
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+table.seiyuu {
+    width: 200px;
+    float: right;
+}
+
+td.seiyuu {
+    width: 200px;
+    text-align: right;
+}
+
+table.listado {
+    width: 970px;
+    margin: 0px auto 0px auto;
+}
+
+table.listado100 {
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+
+td.listado100 {
+    width: 100%;
+    height: 26px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/linea.png');
+}
+
+table.enlaces {
+    width: 800px;
+    margin: 0px auto 0px auto;
+}
+
+td.enlaces {
+    width: 100px;
+}
+
+table.afiliacion {
+    width: 800px;
+    height: 175;
+    margin: 0px auto 0px auto;
+}
+
+td.afiliacion {
+    width: 100px;
+    height: 35px;
+}
+
+table.crono {
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+
+td.crono0 {
+    width: 100px;
+}
+
+td.crono1 {
+    width: 100px;
+    text-align: center;
+}
+
+td.crono2 {
+    width: 150px;
+    color: white;
+}
+
+td.crono3 {
+    font-style: italic;
+}
+
+table.entrada {
+    width: 600px;
+    margin: 0px auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/****** ESTILOS CONCRETOS PARA LOS DIVS  ******/
+div.fechas {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    outline: 2px solid white;
+    margin: 0px 3px;
+    user-select: none;
+}
+
+div.crono {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    outline: 2px solid white;
+    margin: 0px 3px;
+    user-select: none;
+}
+
+div.lyrics {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    outline: 2px solid white;
+    margin: 0px 3px;
+    user-select: none;
+}
+
+div.kana {
+    height: 26px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/barras/fondo100b.png');
+    background-size: 100px 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    user-select: none;
+}
+
+div.bso {
+    height: 26px;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/barras/fondo120b.png');
+    background-size: 120px 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    user-select: none;
+}
+
+div.bso-duracion {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 90%;
+    height: 20px;
+    outline: 2px solid white;
+    margin: 0px 3px;
+    user-select: none;
+}
+
+div.bso-titulo {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 98%;
+    height: 20px;
+    outline: 2px solid white;
+    margin: 0px 3px;
+    user-select: none;
+    float: left;
+}
+
+div.bso-info {
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    vertical-align: middle;
+    text-align: center;
+    width: 98%;
+    height: 20px;
+    outline: 2px solid white;
+    margin: 0px 3px;
+    user-select: none;
+    float: right;
+}
+
+div.bsoletra {
+    float: right;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/barras/barra-fondo70.png');
+    background-repeat: no-repeat;
+    background-size: 70px 20px;
+    background-position: center;
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 16px;
+    vertical-align: middle;
+    text-shadow: 2px 2px black;
+    user-select: none;
+}
+
+div.personaje {
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    background-image: url('https://www.lost-slayers.net/imgs/principal/barras/barra-fondo70.png');
+    background-repeat: no-repeat;
+    background-size: 70px 20px;
+    background-position: center;
+    font-family: Alegreya Sans SC;
+    color: #FFFFFF;
+    font-size: 16px;
+    vertical-align: middle;
+    text-shadow: 2px 2px black;
+    user-select: none;
+}
+
+td.azul {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/azul.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.verde {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/verde.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.morado {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/morado.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.blanco {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/blanco.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.rojo {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/rojo.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.marron {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/marron.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.negro {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/negro.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.amarillo {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/amarillo.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.gris {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/gris.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.naranja {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/naranja.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.celeste {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/celeste.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.anil {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/anil.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+td.rosa {
+    background: url("https://www.lost-slayers.net/imgs/informacion/iconos/rosa.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
