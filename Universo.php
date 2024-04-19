@@ -50,7 +50,7 @@ En cambio, en entrevistas con directivos del anime y demás material extra se da
             </td>
         </tr>
         <tr>
-            <td>
+            <td>z
                 <h2 class="">
                 Península sellada, países y localizaciones.
                 </h2>

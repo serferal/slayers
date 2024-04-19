@@ -74,7 +74,7 @@ html, body {
 
 .contenedor-imagen {
     width: 100%; /* Ancho del contenedor de la imagen igual al 100% del contenedor central */
-    height: 50%; /* Altura del contenedor de la imagen igual al 100% del contenedor central */
+    /*height: 50%; *//* Altura del contenedor de la imagen igual al 100% del contenedor central */
     overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga del contenedor */
     position: relative; /* Posiciona el contenedor de la imagen de forma relativa */
 }
@@ -122,4 +122,24 @@ html, body {
 .size_image{
     height: 140px;
     width: 220px;
+}
+
+
+.personajes {
+    /* margin-top: 2px; */
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.dis_char{
+
+    vertical-align: top;
+    width: 800px;
+    margin: 10px;
 }
